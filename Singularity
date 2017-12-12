@@ -60,7 +60,7 @@ From: nvidia/cuda:8.0-devel-ubuntu14.04
 
 # MPI
     apt-get update
-    apt-get install -y libibnetdisc-dev libcr-dev mpich2   
+    apt-get install -y libibnetdisc-dev libcr-dev mpich 
 
     export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda-8.0/lib64\${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
     export PATH=/usr/local/cuda-8.0/bin${PATH:+:${PATH}}
